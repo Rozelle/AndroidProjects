@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.peepal.shifoodata.Settings">
+
+    <TextView
+        android:id="@+id/noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:clickable="true"
+        android:onClick="Notify"/>
+    <TextView
+        android:id="@+id/change"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change phone number"
+        android:layout_below="@id/noti"
+        android:clickable="true"
+        android:onClick="ChangePh"/>
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change"
+        android:text="Privacy Policies"
+        android:clickable="true"
+        android:onClick="PrivacyP"/>
+    <TextView
+        android:id="@+id/terms"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/privacy"
+        android:text="Terms and Conditions"
+        android:clickable="true"
+        android:onClick="TermsC"/>
+</RelativeLayout>

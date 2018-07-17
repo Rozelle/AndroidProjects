@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.preshopping" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signin"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".BroadCategory"
+            android:label="@string/title_activity_broad_category" >
+        </activity>
+        <activity
+            android:name=".PasswordEmail"
+            android:label="@string/title_activity_password_email" >
+        </activity>
+        <activity
+            android:name=".AccountSettings"
+            android:label="@string/title_activity_account_settings" >
+        </activity>
+        <activity
+            android:name=".SelectType"
+            android:label="@string/title_activity_select_type" >
+        </activity>
+        <activity
+            android:name=".nonet"
+            android:label="@string/title_activity_nonet" >
+        </activity>
+    </application>
+
+</manifest>

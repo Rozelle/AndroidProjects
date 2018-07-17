@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Readoholic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">View Wishlist</string>
+    <string name="action_add" tranlatable= "false">Add to Wishlist</string>
+    <string name="cg">Choose genre</string>
+    <string name="fiction">Fiction</string>
+    <string name="nonfiction">Non-Fiction</string>
+    <string name="crime">Crime</string>
+    <string name="religion">Religion</string>
+    <string name="sciencefiction">Science Fiction</string>
+    <string name="politics">Politics</string>
+    <string name="romantic">Romantic</string>
+    <string name="travel">Travel</string>
+    <string name="humour">Humour</string>
+    <string name="business">Business</string>
+    <string name="foodfitness">Food and Fitness</string>
+    <string name="title_activity_view2">View2</string>
+    <string name="title_activity_view21">Must Reads</string>
+    <string name="title_activity_detailed">Details</string>
+    <string name="Name">Name of the Book</string>
+    <string name="AuthorName">Name of the Author</string>
+    <string name="PubName">Name of the Publisher</string>
+    <string name="description">About the book</string>
+    <string name="amazon">Link to buy the book:</string>
+    <string name="title_activity_nonet">Oops!</string>
+    <string name="sorry">No network available...Please check connection and retry!</string>
+</resources>

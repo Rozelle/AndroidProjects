@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+    <TextView
+        android:id="@+id/textN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="70dp"
+        android:textSize="17dp"
+        android:text="@string/hello_world"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textPh"
+        android:layout_below="@id/textN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="70dp"
+        android:text="@string/hello_world"
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"/>
+
+    <TextView
+        android:id="@+id/textTot"
+        android:layout_below="@id/textPh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="70dp"
+        android:paddingBottom="5dp"
+        android:text="@string/hello_world"
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"/>
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:text="26 May 1995"
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textTxnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textSize="12dp"
+        android:textColor="#ff6600"
+        android:layout_below="@+id/textPh"
+        android:layout_toEndOf="@id/textTot" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignBottom="@+id/textDate"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/frameLayout">
+        <Button
+            android:id="@+id/flowup"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/up"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/flowdown"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/down" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/textTot"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/call"
+            android:layout_gravity="center_horizontal|top" />
+
+        <Button
+            android:id="@+id/buttonRequest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/request"
+            android:layout_gravity="right|top"/>
+        <Button
+            android:id="@+id/buttonRemind"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/resend"
+            android:layout_gravity="right|top"/>
+    </FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="#ff6600"/>
+    <TextView
+        android:id="@+id/textNumber"
+        android:text="@string/hello_world"
+        android:layout_below="@id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/background_floating_material_dark"/>
+    <TextView
+        android:id="@+id/textAmount"
+        android:text="@string/hello_world"
+        android:layout_below="@id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/background_floating_material_dark"/>
+    <TextView
+        android:id="@+id/textChange"
+        android:text="( Edit )"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#ff6600"
+        android:layout_below="@+id/textNumber"
+        android:layout_toEndOf="@+id/textName" />
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_clear_search_api_holo_light"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+    <TextView
+        android:id="@+id/textN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="17dp"
+        android:text="@string/hello_world"
+        android:textColor="#ff6600"/>
+
+    <TextView
+        android:id="@+id/textPh"
+        android:layout_below="@id/textN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:text="@string/hello_world"
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"/>
+
+    <TextView
+        android:id="@+id/textTot"
+        android:layout_below="@id/textPh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:text="@string/hello_world"
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textSize="12dp"
+        android:textColor="@color/background_floating_material_dark"
+        android:layout_below="@+id/textTot" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/buttonResend"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/request"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/textTot"
+        android:layout_alignParentEnd="true" />
+
+   </RelativeLayout>

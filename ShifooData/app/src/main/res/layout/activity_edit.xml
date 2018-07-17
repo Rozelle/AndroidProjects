@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.peepal.shifoo.Edit">
+
+    <TextView
+        android:id="@+id/Tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Name"/>
+
+    <EditText
+        android:inputType="text"
+        style="@style/EditTextAppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="10dp"
+        android:hint="10 digits"
+        android:textColorHint="#bcbbbb"
+        android:id="@+id/e1"
+        android:layout_below="@id/Tv1"
+        android:textCursorDrawable="@drawable/colour_cursor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tv2"
+        android:layout_below="@id/e1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Phone number"/>
+
+    <EditText
+        android:inputType="text|phone"
+        style="@style/EditTextAppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="10dp"
+        android:hint="10 digits"
+        android:textColorHint="#bcbbbb"
+        android:id="@+id/e2"
+        android:layout_below="@id/Tv2"
+        android:textCursorDrawable="@drawable/colour_cursor"/>
+
+    <TextView
+        android:id="@+id/Tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Amount"
+        android:layout_below="@id/e2"/>
+    <EditText
+        android:inputType="text|number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="In Rupees only"
+        android:textColorHint="#bcbbbb"
+        android:id="@+id/e3"
+        android:layout_below="@id/Tv3"
+        android:textCursorDrawable="@drawable/colour_cursor"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff6600"
+        android:text="Discard"
+        android:textColor="#ffffff"
+        android:id="@+id/b2"
+        android:layout_below="@id/e3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff6600"
+        android:text="Done"
+        android:textColor="#ffffff"
+        android:id="@+id/b1"
+        android:layout_below="@id/e3"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

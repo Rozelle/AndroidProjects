@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyDatabase</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add product</string>
+    <string name="find">Find product</string>
+    <string name="delete">Delete product</string>
+    <string name="title_activity_display">Display</string>
+</resources>

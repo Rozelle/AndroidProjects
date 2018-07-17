@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Fee Request"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Description:"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/remark"
+        style="@style/EditTextAppTheme"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Guitar classes Dec 2015 fees"
+        android:textCursorDrawable="@drawable/colour_cursor"
+        android:textColorHint="#bcbbbb" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <Button
+            android:id="@+id/done"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#ff6600"
+            android:text="Done"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/discard"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#ff6600"
+            android:text="Discard"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+</LinearLayout>

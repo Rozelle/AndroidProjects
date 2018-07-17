@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp">
+
+    <Button
+        android:id="@+id/selectAll"
+        android:background="#ff6600"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Select all"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:onClick="selectAllClick"/>
+    <Button
+        android:id="@+id/remind"
+        android:background="#ff6600"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Remind"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:onClick="remindClick" />
+    <Button
+        android:id="@+id/paid"
+        android:background="#ff6600"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Move to Paid"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:onClick="paidClick"/>
+    <ListView
+        android:id="@+id/pendingSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/selectAll"
+        android:choiceMode="multipleChoice">
+    </ListView>
+</RelativeLayout>

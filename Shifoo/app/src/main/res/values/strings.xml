@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shifoo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="findContact">Find Contact</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_request_payment">Request Payment</string>
+    <string name="title_activity_search_display">Search Result</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_add_student">Add Student</string>
+    <string name="title_activity_multiple">Students</string>
+    <string name="title_activity_edit">Edit Details</string>
+</resources>

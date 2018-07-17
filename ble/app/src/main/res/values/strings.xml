@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ble</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="act1">Search a BLE device</string>
+    <string name="scan">Scan</string>
+    <string name="update">Update RSSI</string>
+    <string name="stop">Stop</string>
+    <string name="pair">Pair</string>
+    <string name="unpair">Unpair</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_activity_device_scan">DeviceScanActivity</string>
+    <string name="title_devices">Devices:</string>
+    <string name="title_activity_pair_unpair">PairUnpair</string>
+    <string name="title_activity_display_database">DisplayDatabase</string>
+    <string name="title_activity_setting_noti_time">SettingNotiTime</string>
+</resources>

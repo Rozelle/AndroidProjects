@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.preshopping.BroadCategory">
+    <item android:id="@+id/action_switch"
+        android:title="Switch User"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_account"
+        android:title="View Account"
+        android:orderInCategory="10"
+        app:showAsAction="never" />
+
+</menu>

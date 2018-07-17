@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Movies"
+        android:clickable="true"
+        android:onClick="buttonOnClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:id="@+id/button2"
+        android:text="Games"
+        android:clickable="true"
+        android:onClick="buttonOnClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:id="@+id/button3"
+        android:text="Books"
+        android:clickable="true"
+        android:onClick="buttonOnClick"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/button3"
+        android:id="@+id/frag1"
+        android:name="com.example.user.actiontabs.MoviesFragment"
+        android:layout="@layout/fragment_movies"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frag2"
+        android:layout_below="@id/button3"
+        android:name="com.example.user.actiontabs.GamesFragment"
+        android:layout="@layout/fragment_games"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frag3"
+        android:layout_below="@id/button3"
+        android:name="com.example.user.actiontabs.BooksFragment"
+        android:layout="@layout/fragment_books"/>
+</RelativeLayout>

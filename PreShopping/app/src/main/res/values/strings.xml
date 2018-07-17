@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PreShopping</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signin">Sign In</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="password_inst">"Password should have a minimum of 8 characters\nInclude alteast one special character:@ # * _ - / and alphabets only"</string>
+    <string name="title_activity_broad_category">Broad Category</string>
+    <string name="title_activity_password_email">Password</string>
+    <string name="title_activity_account_settings">Account Settings</string>
+    <string name="title_activity_select_type">Select Type...</string>
+    <string name="title_activity_nonet">nonet</string>
+    <string name="sorry">No network available...Please check connection and retry!</string>
+</resources>

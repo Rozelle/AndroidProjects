@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.ble.app.SettingNotiTime">
+
+    <TextView android:text="@string/hello_world"
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textChange"
+        android:layout_below="@id/timeText"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Change?"
+        android:clickable="true"
+        android:onClick="changePref"
+        android:textSize="20dp"/>
+
+   <RadioGroup
+       android:id="@+id/radio"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/textChange">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="No notification"
+        android:textSize="20dp"
+        android:checked="false"
+        android:id="@+id/radio1"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Notification in 5 minutes"
+        android:textSize="20dp"
+        android:checked="false"
+        android:id="@+id/radio2"/>
+
+       <RadioButton
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="Notification in 10 minutes"
+           android:textSize="20dp"
+           android:checked="false"
+           android:id="@+id/radio3"/>
+
+       <RadioButton
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="Notification in 15 minutes"
+           android:textSize="20dp"
+           android:checked="false"
+           android:id="@+id/radio4"/>
+
+       <RadioButton
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="Notification in 20 minutes"
+           android:textSize="20dp"
+           android:checked="false"
+           android:id="@+id/radio5"/>
+
+   </RadioGroup>
+    <Button
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio"
+        android:layout_centerHorizontal="true"
+        android:text="SAVE"
+        android:id="@+id/setting_save"
+        android:clickable="true"
+        android:onClick="saveClick"/>
+
+</RelativeLayout>
