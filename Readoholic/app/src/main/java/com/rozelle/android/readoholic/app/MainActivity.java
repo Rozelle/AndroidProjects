@@ -153,7 +153,8 @@ public class MainActivity extends ActionBarActivity //implements View.OnClickLis
                 transfer();
                 break;
             case R.id.foodfitnessB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=food-and-fitness&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";                transfer();
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=food-and-fitness&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
+                transfer();
                 break;
 
 
