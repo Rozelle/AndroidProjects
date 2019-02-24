@@ -113,47 +113,47 @@ public class MainActivity extends ActionBarActivity //implements View.OnClickLis
     public void ButtonOnClick(View v) {
         switch (v.getId()) {
             case R.id.fictionB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=combined-print-fiction&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=combined-print-fiction&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.nonfictionB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=combined-print-nonfiction&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=combined-print-nonfiction&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.crimeB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=crime-and-punishment&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=crime-and-punishment&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.religionB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=religion-spirituality-and-faith&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=religion-spirituality-and-faith&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.scienceficB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=science&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=science&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.politicsB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=hardcover-political-books&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=hardcover-political-books&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.romanticB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=relationships&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=relationships&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.travelB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=travel&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=travel&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.humourB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=humor&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=humor&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.businessB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=paperback-business-books&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=paperback-business-books&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";
                 transfer();
                 break;
             case R.id.foodfitnessB:
-                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=food-and-fitness&api-key=dd252921ae32d257244bc41d623b66a0:4:71782870";                transfer();
+                urlname="http://api.nytimes.com/svc/books/v2/lists.json?list=food-and-fitness&api-key=3DeoFAQ5ok9y7qOF8bIz5ynO2MLRMePi";                transfer();
                 break;
 
 
